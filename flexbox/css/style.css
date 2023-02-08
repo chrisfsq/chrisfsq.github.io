@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: 1px;
+    padding: 60px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#logo img{
+    width: 100%;
+    height: 200px;
+    margin-top: -23px;
+}
+
+span#bold {
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3593b8;
+}
+
+img#item {
+    display:inline;
+    
+}
+
+aside {
+    display: flex;
+    background-color: #152545;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 35px;
+}
+
+aside a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 11px;
+}
+
+aside a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    width: 100%;
+    color: #152545 ;
+    font-weight: bold;
+    padding: 11px;
+    border-radius: 10px;
+}
+
+div.contato {
+    display: block;
+    margin-top: 10px;
+    margin-left: 300px;
+}
+
+p#tele {
+    color: aliceblue;
+}
+
+article {
+    width: 100%; 
+    height: 550px ;
+    background-image: url(/img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo {
+    padding: 50px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+}
+
+article #conteudo button {
+    background-color: #43c3ea;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15pt;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+}
+
+main img#artigo {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+main div#artigo1 {
+    padding: 50px;
+    width: 50%;
+}
+
+
+div#sobrepor {
+    display: flex;
+    padding: 10px;
+}
+
+div.about {
+    padding: 50px;
+    width: 50%;
+
+}
+
+div.group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.formulario {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    padding: 50px;
+}
+
+.formulario h2, p#screen {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #43c3ea;
+    text-align: center;
+}
+
+.dividir {
+    width: 1000px;
+    border: 0.5px solid #43c3ea;
+    opacity: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin: 50px auto;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+}
+.formulario form .left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.formulario form .right {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.formulario input {
+    border: 1px solid #43c3ea;
+    width: 600px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.formulario textarea {
+    border: 1px solid #43c3ea;
+    width: 600px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input.btn {
+    width: 300px;
+    background-color: #43c3ea;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+input.btn:hover {
+    background-color:#ffffff;
+    border: 2px solid #43c3ea;
+    color: #43c3ea;
+}
